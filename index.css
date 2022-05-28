@@ -307,7 +307,13 @@ input {
 /*~~~~~~~~~~~~~~~~~Media Query~~~~~~~~~~~~~~~~~~~~~*/
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+    article {
+        display: block;
+        flex-direction: column;
+    }
+
+    .boxes {
+        display: block;
+        flex-direction: column;
     }
   }
